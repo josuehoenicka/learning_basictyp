@@ -1,8 +1,9 @@
 /********** Functions **********/
-function greet(name : string) : void {
+function greet(name : string = 'User') : void {
     console.log(`Hello, ${name.toUpperCase()} !`)
 }
 greet('Josue'); // Hello, JOSUE !
+greet(); // Hello, USER !
 
 function getNumber() : number {
     return Math.floor(Math.random() * 100); 
