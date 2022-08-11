@@ -1,9 +1,10 @@
 "use strict";
 /********** Functions **********/
-function greet(name) {
+function greet(name = 'User') {
     console.log(`Hello, ${name.toUpperCase()} !`);
 }
 greet('Josue'); // Hello, JOSUE !
+greet(); // Hello, USER !
 function getNumber() {
     return Math.floor(Math.random() * 100);
 }
