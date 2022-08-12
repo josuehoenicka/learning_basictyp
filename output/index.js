@@ -1,2 +1,2 @@
 "use strict";
-console.log('Look at the test folder');
+console.log('Look at the test folder :)');

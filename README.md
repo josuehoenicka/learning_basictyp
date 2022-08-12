@@ -1,4 +1,4 @@
-<h1 align="center">basicTS</h1>
+<h1 align="center">basicType</h1>
 <br>
 <h3 align="center">My first code lines on TypeScript and my develop on the basic structure the language code</h3>
 <br>
