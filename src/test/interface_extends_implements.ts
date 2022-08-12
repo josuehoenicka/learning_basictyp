@@ -1,14 +1,14 @@
 /********** Extends **********/
-interface Person {
+interface FirstPerson {
     id : number;
     name : string;
 }
 
-interface Employee extends Person{
+interface FirstEmployee extends FirstPerson{
     dept : string;
 }
 
-interface Customer extends Person{
+interface Customer extends FirstPerson{
     country : string;
 }
 
